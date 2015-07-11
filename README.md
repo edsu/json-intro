@@ -1,4 +1,4 @@
-# A Gentle Introduction to JSON
+## A Gentle Introduction to JSON
 
 This repository contains brief, gentle introductions to JSON for different
 programming languages. The idea is to provide a simple introduction to JSON

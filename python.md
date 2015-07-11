@@ -1,4 +1,4 @@
-# A Gentle (Pythonic) Introduction to JSON 
+## A Gentle (Pythonic) Introduction to JSON 
 
 Programming languages have lots of ways of representing data called 
 *data structures*. Very often you want to flatten, or *serialize* these 
