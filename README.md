@@ -1,9 +1,9 @@
 ## A Gentle Introduction to JSON
 
-This repository contains brief, gentle introductions to JSON for different
-programming languages for aspiring programmers. The idea is to provide a 
-simple introduction to JSON for smart people who don't necessarily know 
-how to program. 
+This repository contains brief, gentle introductions to JSON for aspiring 
+programmers. The idea is to provide a simple introduction to JSON for smart,
+motivated people whose primary area of expertise is elsewhere (social sciences,
+humanities, etc) and don't necessarily know how to program (yet).
 
 If you'd like to contribute one, or modify an existing one, please send along
 a pull request (yay, this is GitHub). One way to do this is to simply copy 
