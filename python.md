@@ -32,14 +32,14 @@ I would create a list named `numbers` that contains the integers 1, 2 and 10
 in that order. Python will never re-arrange a list, you can guarantee the 
 order stays the same unless you manipulate it yourself. 
 
-You can pretty much have anything you like in a list.
+You can pretty much have anything you like in a list. For example this
 
 ```python
 things = [1, "dog", 4.5]
 ```
 
-`things` is a list containing the integer `1`, the string `dog` and the 
-real number `4.5`. 
+creates a list named `things` that contains the integer `1`, the string `dog` 
+and the real number `4.5`. 
 
 ### Dictionaries
 
