@@ -28,17 +28,17 @@ order will be preserved. For example if I wrote:
 numbers = [1, 2, 10]
 ```
 
-I would create a list containing the integers 1, 2 and 10 in that order. 
-Python will never re-arrange a list, you can guarantee the order stays the 
-same unless you manipulate it yourself. 
+I would create a list named `numbers` that contains the integers 1, 2 and 10 
+in that order. Python will never re-arrange a list, you can guarantee the 
+order stays the same unless you manipulate it yourself. 
 
-You can have anything you like in a list pretty much, e.g.
+You can pretty much have anything you like in a list.
 
 ```python
 things = [1, "dog", 4.5]
 ```
 
-is a list called *things* containing the integer `1`, the string `dog` and the 
+`things` is a list containing the integer `1`, the string `dog` and the 
 real number `4.5`. 
 
 ### Dictionaries
