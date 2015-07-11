@@ -16,13 +16,13 @@ similar to the way things are done natively in Python. This format is called
 JavaScript Object Notation or [JSON] for short.
 
 You really only need to know about two types of structure to understand JSON. 
-In Python parlance these are [Lists] and [Dictionaries], and they are both 
+In Python parlance these are [lists] and [dictionaries], and they are both 
 built in to the language itself. The same is true of other programming 
 languages, like Ruby, Perl, PHP, Java and (of course) JavaScript.
 
-### List
+### Lists
 
-A List is a container into which you can put other things, knowing that their 
+A list is a container into which you can put other things, knowing that their 
 order will be preserved. For example if I wrote:
 
 ```python
@@ -42,9 +42,9 @@ things = [1, "dog", 4.5]
 is a list called *things* containing the integer `1`, the string `dog` and the 
 real number `4.5`. 
 
-### Dictionary
+### Dictionaries
 
-The next thing you need to know about is a Dictionary. A dictionary makes an 
+The next thing you need to know about is a dictionary. A dictionary makes an 
 association between a *key* and a *value*. It's like a mini-database where you 
 can put stuff in, give it a unique identifier, and then use that identifier 
 later to retrieve it. For example, a dictionary called `ages` containing 
@@ -78,17 +78,17 @@ you'll get back the value `34` (an integer).
 
 ### Composing Lists and Dictionaries
 
-To make things a bit more interesting (and expressive) you can put Lists and 
-Dictionaries inside one another. So you could have a List containing 
-Dictionaries, or a Dictionary where each value is a List and so on. 
+To make things a bit more interesting (and expressive) you can put lists and 
+dictionaries inside one another. So you could have a list containing 
+dictionaries, or a dictionary where each value is a list and so on. 
 
 This turns out to be a fairly generic way of flattening complex data 
 structures, and it's exactly what JSON is based on. JSON actually uses a 
 notation that's very similar (I think perhaps even identical) to the way that 
-Python displays Lists and Dictionaries, so if you're familiar with one you can 
+Python displays lists and dictionaries, so if you're familiar with one you can 
 read the other. 
 
-So let's imagine I want to represent a *person*. I can create a Dictionary 
+So let's imagine I want to represent a *person*. I can create a dictionary 
 with specific keys and values. Something like...
 
 ```python
@@ -118,7 +118,7 @@ people = [ person1, person2 ]
 ### JSON
 
 What might the list `people` look like if I wrote it out in long hand? It 
-would contain two Dictionaries (`person1` and `person2`), and each of those 
+would contain two dictionaries (`person1` and `person2`), and each of those 
 would have three keys called `name`, `age` and `shoesize` associated with 
 sensible values. If I wrote the whole thing out longhand in Python notation, 
 it would look like this:
@@ -140,10 +140,10 @@ it would look like this:
 
 and that conveniently happens to be JSON notation too. That’s all JSON really 
 is: a convenient way of describing data structures as combinations of 
-(what in Python we would call) Dictionaries and Lists so they can be saved 
+(what in Python we would call) dictionaries and lists so they can be saved 
 into files or transmitted over communications links (e.g. over the web or 
 between applications).
 
-[Lists]: https://docs.python.org/2/tutorial/datastructures.html#more-on-lists
-[Dictionaries]: https://docs.python.org/2/tutorial/datastructures.html#dictionaries
+[lists]: https://docs.python.org/2/tutorial/datastructures.html#more-on-lists
+[dictionaries]: https://docs.python.org/2/tutorial/datastructures.html#dictionaries
 [JSON]: https://en.wikipedia.org/wiki/JSON
