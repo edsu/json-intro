@@ -13,12 +13,14 @@ Most modern languages have a way of automatically serialising data structures,
 and the one used by JavaScript took off in a big way, probably because it is 
 very simple to understand and use. Conveniently in your case, it's also very 
 similar to the way things are done natively in Python. This format is called 
-JavaScript Object Notation, or [JSON] for short.
+JavaScript Object Notation or [JSON] for short.
 
 You really only need to know about two types of structure to understand JSON. 
-In Python parlance these are [Lists], and [Dictionaries], and they are both 
+In Python parlance these are [Lists] and [Dictionaries], and they are both 
 built in to the language itself. The same is true of other programming 
 languages, like Ruby, Perl, PHP, Java and (of course) JavaScript.
+
+### List
 
 A List is a container into which you can put other things, knowing that their 
 order will be preserved. For example if I wrote:
@@ -39,6 +41,8 @@ things = [1, "dog", 4.5]
 
 is a list called *things* containing the integer `1`, the string `dog` and the 
 real number `4.5`. 
+
+### Dictionary
 
 The next thing you need to know about is a Dictionary. A dictionary makes an 
 association between a *key* and a *value*. It's like a mini-database where you 
@@ -71,6 +75,8 @@ print(ages['Anne'])
 ```
 
 you'll get back the value `34` (an integer). 
+
+### Composing Lists and Dictionaries
 
 To make things a bit more interesting (and expressive) you can put Lists and 
 Dictionaries inside one another. So you could have a List containing 
@@ -109,6 +115,8 @@ I could now put these two people into a list...
 people = [ person1, person2 ]
 ```
 
+### JSON
+
 What might the list `people` look like if I wrote it out in long hand? It 
 would contain two Dictionaries (`person1` and `person2`), and each of those 
 would have three keys called `name`, `age` and `shoesize` associated with 
@@ -130,7 +138,8 @@ it would look like this:
 ]
 ```
 
-and that conveniently happens to be JSON notation too. That’s all JSON really is: a convenient way of describing data structures as combinations of 
+and that conveniently happens to be JSON notation too. That’s all JSON really 
+is: a convenient way of describing data structures as combinations of 
 (what in Python we would call) Dictionaries and Lists so they can be saved 
 into files or transmitted over communications links (e.g. over the web or 
 between applications).
