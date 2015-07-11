@@ -130,7 +130,7 @@ notation, it would look like this:
     "shoesize": 6
   },
   {
-    "name": 'Bob',
+    "name": "Bob",
     "age": 29,
     "shoesize": 11
   }
