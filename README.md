@@ -23,7 +23,7 @@ document at someone who is learning to program is kinda like RTFM, no?
 oriented around XML instead of a programming language. Also, it's broken up 
 into multiple pages and littered with distracting ads. Sigh.
 
-Fortunately [Scott Pettifer], who is a Lecturer in Computer Science at the University of Machester, [stepped up](https://twitter.com/srp/status/619523126519574528) and started this one.
+Fortunately [Scott Pettifer](https://twitter.com/srp), who is a Lecturer in Computer Science at the University of Machester, [stepped up](https://twitter.com/srp/status/619523126519574528) and started this one.
 
 ### License 
 
