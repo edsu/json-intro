@@ -3,11 +3,10 @@
 Programming languages have lots of ways of representing data called 
 *data structures*. Very often you want to flatten, or *serialize* these 
 data structures so that they can be transmitted over the network or stored 
-in a file for later.
-
-In the old days, you'd invent a file format of your own devising to do this 
-and write the different bits of your data structure into the file format. 
-But that's an expensive way of doing things and very error prone. 
+in a file for later. In the old days, you'd invent a file format of your own 
+devising to do this and write the different bits of your data structure 
+into the file format. But that's an expensive way of doing things and very 
+error prone. 
 
 Most modern languages have a way of automatically serialising data structures, 
 and the one used by JavaScript took off in a big way, probably because it is 
