@@ -1,12 +1,15 @@
 ## A Gentle Introduction to JSON
 
 This repository contains brief, gentle introductions to JSON for different
-programming languages. The idea is to provide a simple introduction to JSON
-for smart people who don't necessarily know how to program. 
+programming languages for aspiring programmers. The idea is to provide a 
+simple introduction to JSON for smart people who don't necessarily know 
+how to program. 
 
-If you'd like to contribute one, or modify an existing one pull requests 
-are welcome (hey this is GitHub!). If you simply want to copy an existing one
-and update it to use your language of choice that's perfectly fine.
+If you'd like to contribute one, or modify an existing one, please send along
+a pull request (yay, this is GitHub). One way to do this is to simply copy 
+an existing one and update it to use your language of choice.
+
+### Background
 
 This started as a simple lazyweb 
 [request](https://twitter.com/edsu/status/619520456383709184) on Twitter, which
@@ -22,6 +25,6 @@ into multiple pages and littered with distracting ads. Sigh.
 
 Fortunately [Scott Pettifer], who is a Lecturer in Computer Science at the University of Machester, [stepped up](https://twitter.com/srp/status/619523126519574528) and started this one.
 
-## License 
+### License 
 
 * CC0 1.0 Universal
