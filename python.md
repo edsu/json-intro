@@ -118,10 +118,10 @@ people = [ person1, person2 ]
 ### JSON
 
 What might the list `people` look like if I wrote it out in long hand? It 
-would contain two dictionaries (`person1` and `person2`), and each of those 
+would contain two dictionaries, `person1` and `person2`, and each of those 
 would have three keys called `name`, `age` and `shoesize` associated with 
-sensible values. If I wrote the whole thing out longhand in Python notation, 
-it would look like this:
+their respective values. If I wrote the whole thing out longhand in Python 
+notation, it would look like this:
 
 ```python
 [
@@ -138,7 +138,7 @@ it would look like this:
 ]
 ```
 
-and that conveniently happens to be JSON notation too. That’s all JSON really 
+And that conveniently happens to be JSON notation too. That’s all JSON really 
 is: a convenient way of describing data structures as combinations of 
 (what in Python we would call) dictionaries and lists so they can be saved 
 into files or transmitted over communications links (e.g. over the web or 
